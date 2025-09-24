@@ -43,6 +43,13 @@ All colors MUST be HSL.
   --sidebar-accent-foreground: 240 5.9% 10%;
   --sidebar-border: 220 13% 91%;
   --sidebar-ring: 217.2 91.2% 59.8%;
+
+  /* MVP Prototype Consultation Theme - Purple Gradients */
+  --primary-purple: 256 100% 67%;
+  --primary-purple-dark: 249 100% 58%;
+  --secondary-purple: 270 100% 85%;
+  --gradient-purple: linear-gradient(135deg, hsl(256 100% 67%), hsl(249 100% 58%));
+  --gradient-purple-light: linear-gradient(135deg, hsl(270 100% 85%), hsl(256 100% 75%));
 }
 
 .dark {
@@ -124,7 +131,12 @@ All colors MUST be HSL.
   --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
   --color-sidebar-border: hsl(var(--sidebar-border));
   --color-sidebar-ring: hsl(var(--sidebar-ring));
-  
+
+  /* MVP Prototype Consultation Theme */
+  --color-primary-purple: hsl(var(--primary-purple));
+  --color-primary-purple-dark: hsl(var(--primary-purple-dark));
+  --color-secondary-purple: hsl(var(--secondary-purple));
+
   /* Border Radius */
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
